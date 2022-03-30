@@ -5,9 +5,7 @@ public class Main {
 
         int account = 500;
         int payment = 1000;
-        int bonus = payment / 100;
-
-
+        int bonus = payment / account;
 
 
         if (payment >= 200) {
@@ -17,9 +15,5 @@ public class Main {
         int all = account + payment + bonus;
 
         System.out.println("На Ваш счет зачислено: " + all);
-
-
-
-
     }
 }
